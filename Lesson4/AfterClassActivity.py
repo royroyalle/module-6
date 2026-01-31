@@ -48,7 +48,7 @@ def change_background_color():
 
 all_sprites_list = pygame.sprite.Group()
 
-for _ in range(1):
+for _ in range(2):
     sp = Sprite(White, 20, 30)
     sp.rect.x = random.randint(50, 450)
     sp.rect.y = random.randint(50, 350)
